@@ -7,7 +7,7 @@ class AppTest < Minitest::Test
   include Rack::Test::Methods
 
   def app
-    Rack::Lint.new(App.init)
+    App.init
   end
 
   def test_root

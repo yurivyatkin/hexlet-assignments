@@ -8,9 +8,9 @@ Rack также поддерживает создание промежуточн
 
 ## Ссылки
 
-* [Middleware](https://en.wikipedia.org/wiki/Middleware)
+* [https://en.wikipedia.org/wiki/Middleware]
 * [Rack](https://github.com/rack/rack)
-* [Response Body](https://github.com/rack/rack/blob/main/SPEC.rdoc#label-The+Body)
+* [Rack Explained For Ruby Developers](https://www.rubyguides.com/2018/09/rack-middleware/)
 * [Digest::SHA2](https://ruby-doc.org/stdlib-2.4.0/libdoc/digest/rdoc/Digest/SHA2.html)
 
 ## Задачи
@@ -27,7 +27,7 @@ Rack также поддерживает создание промежуточн
 
 ### lib/app/signature.rb
 
-Реализуйте метод миддлвара, который добавляет в тело ответа хеш, зашифрованный по алгоритму семейства *SHA-256*
+Реализуйте метод миддлвара который добавляет в тело ответа хеш, зашифрованным по алгоритму семейства *SHA-256*
 
 ```bash
 curl http://localhost:3000
