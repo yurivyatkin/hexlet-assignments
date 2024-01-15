@@ -47,3 +47,5 @@ end
 
 gem 'rexml', '~> 3.2', '>= 3.2.4'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+
+gem "simple_form", "~> 5.3"
